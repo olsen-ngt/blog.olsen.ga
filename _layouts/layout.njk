@@ -42,7 +42,7 @@
                     <div class="col-12">
                         <nav class="navbar navbar-expand-lg navbar-light p-0">
                             <a class="navbar-brand font-weight-bold mb-0" href="/" title="Van Thanh Blog">
-                                <b>Van Thanh</b>
+                                <b>Văn Thanh</b>
                             </a>
 
                             <button class="search-toggle d-inline-block d-lg-none ms-auto me-1 me-sm-3" data-toggle="search" aria-label="Search Toggle">
@@ -57,12 +57,12 @@
 
                             <div class="collapse navbar-collapse" id="navHeader">
                                 <ul class="navbar-nav mx-auto">
-                                    <li class="nav-item active">
+                                    <li class="nav-item {{ 'active' if '/' in page.url }}">
                                         <a class="nav-link" href="/">Trang chủ</a>
                                     </li>
                                     {% for category in categories %}
                                         <li class="nav-item @@{{category}}">
-                                            <a class="nav-link" href="/{{category}}">{{category | capitalize }}</a>
+                                            <a class="nav-link {{ 'active' if '/category' in page.url }}" href="/{{category}}">{{category | capitalize }}</a>
                                         </li>
                                     {% endfor %}
                                 </ul>
