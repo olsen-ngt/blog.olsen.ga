@@ -61,8 +61,8 @@
                                         <a class="nav-link" href="/">Trang chủ</a>
                                     </li>
                                     {% for category in categories %}
-                                        <li class="nav-item @@{{category}} {{ 'active' if '/{{category}}' in page.url }}">
-                                            <a class="nav-link " href="/{{category}}">{{category | capitalize }}</a>
+                                        <li class="nav-item @@{{category}}">
+                                            <a class="nav-link" href="/{{category}}">{{category | capitalize }}</a>
                                         </li>
                                     {% endfor %}
                                 </ul>
