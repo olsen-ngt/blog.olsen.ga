@@ -20,9 +20,9 @@ const site = lume({
 }, { nunjucks });
 
 site.ignore("README.md", "CHANGELOG.md", "node_modules");
+site.copy(".github/CNAME", "CNAME");
 site.copy("assets", ".");
 site.copy("plugins", ".");
-site.copy(".github/CNAME", "CNAME");
 
 site.data(
   "siteKeywords",
