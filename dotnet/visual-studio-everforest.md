@@ -3,8 +3,8 @@ layout: page.njk
 title: Everforest theme cho Visual Studio
 description: Theme nhẹ nhàng dịu mắt cho Visual Studio
 cover: https://i.imgur.com/mHTKnGG.png
-author: Phan Nhan
-time: 03/10/2022
+author: Van Thanh
+time: 13/06/2022
 tags:
   - dotnet
 ---

@@ -3,8 +3,8 @@ layout: page.njk
 title: Cài đặt Adguard Home trên Alpine Linux
 description: Cách cài đặt Adguard Home trên Alpine Linux đơn giản nhất
 cover: https://res.cloudinary.com/canonical/image/fetch/https://dashboard.snapcraft.io/site_media/appmedia/2020/04/1_1_L6wlYts.png
-author: Phan Nhan
-time: 04/29/2022
+author: Van Thanh
+time: 13/06/2022
 tags:
   - linux
 ---
