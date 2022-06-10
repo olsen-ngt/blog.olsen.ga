@@ -4,7 +4,7 @@ title: Fix lỗi thường gặp trên OpenWRT
 description: Một số tips, trick cho các thiết bị chạy trên OpenWRT
 cover: https://linuxiac.b-cdn.net/wp-content/uploads/2021/09/openwrt.png
 author: Van Thanh
-time: 13/06/2022
+time: 06/13/2022
 tags:
   - linux
   - openwrt
