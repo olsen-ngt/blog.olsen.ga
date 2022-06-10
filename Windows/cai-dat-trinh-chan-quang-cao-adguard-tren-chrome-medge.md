@@ -6,7 +6,7 @@ cover: https://res.cloudinary.com/blog-olsen-ga/image/upload/v1654867641/blog/ad
 author: Van Thanh
 time: 06/13/2022
 tags:
-  - linux
+  - Windows
 ---
 AdGuard Adblocker có thể chặn quảng cáo trên nhiều nền tảng website không chỉ Youtube mà còn có cả Facebook và các mạng xã hội khác. Ứng dụng này có thể chặn được: quảng cáo video, pop-up, bài viết quảng cáo,…
 
