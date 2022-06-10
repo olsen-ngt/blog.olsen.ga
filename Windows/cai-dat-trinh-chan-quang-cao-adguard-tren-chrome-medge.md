@@ -27,7 +27,7 @@ Khi cài đặt **AdGuard Adblocker**, mọi thứ dường như trở nên nh�
 3. Vào setting của **AdGuard AdBlocker** bằng cách bấm vào biểu tượng răng cưa (*AdGuard Settings*) vào phần **User rules** gạt nút bật ở dòng *User rules* nếu chưa được bật.
 
 
-4. Vào link: [ADBVN list](https://raw.githubusercontent.com/olsen-ngt/ADBVN/master/ADGUAD_ADBVN.txt) coppy tất cả text dán vào trong phần `User rules` của `AdGuard AdBlocker` rối lưu lại.
+4. Vào link: [ADBVN list](https://raw.githubusercontent.com/olsen-ngt/ADBVN/master/ADGUAD_ADBVN.txt) coppy tất cả text dán vào trong phần **User rules** của **AdGuard AdBlocker** rối lưu lại.
     * Bạn có thể cập nhật thường xuyên list chặn quảng cáo tại đây [ADBVN list github](https://github.com/olsen-ngt/ADBVN).
     * Hoặc bạn có thể tìm thêm các list block trên google của Việt Nam hoặc của các nước khác rồi thêm vào tại mục **User rules**.
 
