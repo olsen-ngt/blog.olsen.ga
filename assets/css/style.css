@@ -135,7 +135,7 @@ ul {
 
 body {
     color: #505050;
-    background-color: #fff6ef;
+    background-color: #E0FFFF;
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
     line-height: 1.65
@@ -728,7 +728,7 @@ a.text-dark:hover {
 
 footer {
     background: #fff;
-    background: linear-gradient(180deg, #fff6ef 0, #fff 55%)
+    background: linear-gradient(180deg, #E0FFFF 0, #fff 55%)
 }
 
 footer .icon-box a {
@@ -806,7 +806,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    background-color: #fff6ef;
+    background-color: #E0FFFF;
     padding: 50px 0 20px;
     transition: .4s cubic-bezier(.2, 1, .2, 1);
     background-color: rgba(255, 246, 239, .9);
