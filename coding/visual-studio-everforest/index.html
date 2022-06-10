@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="vi"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Everforest theme cho Visual Studio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Theme nhẹ nhàng dịu mắt cho Visual Studio">
+        <meta name="keywords" content="developer,programmer,coder,blog,mechanical,cad,cam,win,linux">
+        <meta name="author" content="Olsen-ngt">
+        <link rel="shortcut icon" href="/images/favicon.svg">
+
+        <!-- CSS Plugins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="/tabler-icons/tabler-icons.min.css">
+
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="/css/style.css">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LLG32K7V99"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-LLG32K7V99');
+        </script>
+    </head>
+
+    <body>
+        <div class="header-height-fix"></div>
+        <header class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg navbar-light p-0">
+                            <a class="navbar-brand font-weight-bold mb-0" href="/" title="Van Thanh Blog">
+                                <b>Văn Thanh</b>
+                            </a>
+
+                            <button class="search-toggle d-inline-block d-lg-none ms-auto me-1 me-sm-3" data-toggle="search" aria-label="Search Toggle">
+                                <span>Search</span>
+                                <svg width="22" height="22" stroke-width="1.5" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 15.5L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 11C5 14.3137 7.68629 17 11 17C12.6597 17 14.1621 16.3261 15.2483 15.237C16.3308 14.1517 17 12.654 17 11C17 7.68629 14.3137 5 11 5C7.68629 5 5 7.68629 5 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </button>
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="ti ti-menu-2 d-inline"></i>
+                                <i class="ti ti-x d-none"></i>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navHeader">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="/">Trang chủ</a>
+                                    </li>
+                                    
+                                        <li class="nav-item @@coding  ">
+                                            <a class="nav-link" href="/coding">Coding</a>
+                                        </li>
+                                    
+                                        <li class="nav-item @@linux  ">
+                                            <a class="nav-link" href="/linux">Linux</a>
+                                        </li>
+                                    
+                                        <li class="nav-item @@Windows  ">
+                                            <a class="nav-link" href="/Windows">Windows</a>
+                                        </li>
+                                    
+                                </ul>
+
+                                <div class="navbar-right d-none d-lg-inline-block">
+                                    <ul class="social-links list-unstyled list-inline">
+                                        <li class="list-inline-item ms-4 d-none d-lg-inline-block">
+                                            <button class="search-toggle" data-toggle="search" aria-label="Search Toggle">
+                                                <span>Tìm kiếm</span>
+                                                <svg width="22" height="22" stroke-width="1.5" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 15.5L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 11C5 14.3137 7.68629 17 11 17C12.6597 17 14.1621 16.3261 15.2483 15.237C16.3308 14.1517 17 12.654 17 11C17 7.68629 14.3137 5 11 5C7.68629 5 5 7.68629 5 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="search-block">
+            <div data-toggle="search-close">
+                <span class="ti ti-x text-primary"></span>
+            </div>
+
+            <input type="text" id="js-search-input" placeholder="Nhập vào từ khóa cần tìm.." aria-label="search-query">
+
+            <div class="mt-4 card-meta">
+                <p class="h4 mb-3">Tìm theo phân loại</p>
+                <ul class="card-meta-tag list-inline">
+                    
+                        <li class="list-inline-item me-1 mb-2">
+                            <a class="small" href="/coding">Coding</a>
+                        </li>
+                    
+                        <li class="list-inline-item me-1 mb-2">
+                            <a class="small" href="/linux">Linux</a>
+                        </li>
+                    
+                        <li class="list-inline-item me-1 mb-2">
+                            <a class="small" href="/Windows">Windows</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        
+
+    <section class="section-sm pb-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="mb-5">
+                        <h3 class="h1 mb-4 post-title">Everforest theme cho Visual Studio</h3>
+
+                        <ul class="card-meta list-inline mb-2">
+                            <li class="list-inline-item mt-2">
+                                <a class="card-meta-author">
+                                    <img class="w-auto" src="/images/author/Van Thanh.jpg" width="26" height="26">
+                                    <span>Van Thanh</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mt-2">—</li>
+                            <li class="list-inline-item mt-2">
+                                <i class="ti ti-clock"></i>
+                                <span>đọc trong 5 phút</span>
+                            </li>
+                            <li class="list-inline-item mt-2">—</li>
+                            <li class="list-inline-item mt-2">
+                                <i class="ti ti-calendar-event"></i>
+                                <span>ngày 10 tháng 06 năm 2022</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="mb-5 text-center">
+                        <img class="w-100 h-auto rounded" src="https://i.imgur.com/mHTKnGG.png" width="970" height="500">
+                    </div>
+                </div>
+                <div class="col-lg-2 post-share-block order-1 order-lg-0 mt-5 mt-lg-0">
+                    <div class="position-sticky" style="top:150px">
+                        <span class="d-inline-block mb-3 small">SHARE</span>
+                        <ul class="social-share icon-box">
+                            <li class="d-inline-block d-lg-block me-2 mb-2" onclick="return tbs_click()">
+                                <i class="ti ti-brand-twitter"></i>
+                            </li>
+                            <li class="d-inline-block d-lg-block me-2 mb-2" onclick="return fbs_click()">
+                                <i class="ti ti-brand-facebook"></i>
+                            </li>
+                            <li class="d-inline-block d-lg-block me-2 mb-2" onclick="return ins_click()">
+                                <i class="ti ti-brand-linkedin"></i>
+                            </li>
+                            <li class="d-inline-block d-lg-block me-2 mb-2" onclick="return red_click()">
+                                <i class="ti ti-brand-reddit"></i>
+                            </li>
+                            <li class="d-inline-block d-lg-block me-2 mb-2" onclick="return pin_click()">
+                                <i class="ti ti-brand-pinterest"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <script type="text/javascript">
+                        var pageLink = window.location.href;
+                        var pageTitle = String(document.title).replace(/\&/g, '%26');
+                        function tbs_click() {
+                            pageLink = 'https://twitter.com/intent/tweet?text=Everforest theme cho Visual Studio&amp;url=https://blog.olsen.ga/coding/visual-studio-everforest/';
+                            socialWindow(pageLink, 570, 570);
+                        }
+                        function fbs_click() {
+                            pageLink = 'https://www.facebook.com/sharer.php?u=https://blog.olsen.ga/coding/visual-studio-everforest/&amp;quote=Everforest theme cho Visual Studio';
+                            socialWindow(pageLink, 570, 570);
+                        }
+                        function ins_click() {
+                            pageLink = 'https://www.linkedin.com/sharing/share-offsite/?url=https://blog.olsen.ga/coding/visual-studio-everforest/';
+                            socialWindow(pageLink, 570, 570);
+                        }
+                        function red_click() {
+                            pageLink = 'https://www.reddit.com/submit?url=https://blog.olsen.ga/coding/visual-studio-everforest/';
+                            socialWindow(pageLink, 570, 570);
+                        }
+                        function socialWindow(pageLink, width, height) {
+                            var left = (screen.width - width) / 2;
+                            var top = (screen.height - height) / 2;
+                            var params = "menubar=no,toolbar=no,status=no,width=" + width + ",height=" + height + ",top=" + top + ",left=" + left;
+                            window.open(pageLink, "", params);
+                        }
+                    </script>
+                </div>
+                <div class="col-lg-8 post-content-block order-0 order-lg-2">
+                    <div class="content">
+                        <p>Đây là theme mình convert từ Everforest trên VS Code, có chỉnh sửa qua tông màu 1 chút, khi dùng cả VS Code cả Visual Studio đồng màu với nhau rất tuyệt vời.</p>
+<p>Theme này khi xem trên màn IPS và VA ko bị chói và đau mắt.</p>
+<p>Link tải cho Visual Studio: <a href="https://github.com/help-14/everforest-vs">https://github.com/help-14/everforest-vs</a></p>
+<p>Link tải cho VS Code: <a href="https://github.com/sainnhe/everforest-vscode">https://github.com/sainnhe/everforest-vscode</a></p>
+
+                    </div>
+
+                    <ul class="post-meta-tag list-unstyled list-inline mt-5">
+                        <li class="list-inline-item">Tags: </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="bg-white" href="/coding">coding</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            
+            
+            
+
+        </div>
+    </section>
+
+
+
+        <!-- start of footer -->
+        <footer>
+            <div class="container">
+                <div class="section">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-xl-6 col-lg-8 col-md-10"></div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="row g-2 g-lg-4 align-items-center">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <p class="mb-0 copyright-text content">©2022 @ Văn Thanh</p>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end">
+                            <ul class="list-inline footer-menu">
+                                <li class="list-inline-item m-0">
+                                    <a href="#">Home Page</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- JS Plugins -->
+        <script src="/jquery/jquery.min.js"></script>
+        <script src="/bootstrap/bootstrap.min.js"></script>
+        <script src="/lightense/lightense.min.js"></script>
+
+        <!-- Main Script -->
+        <script src="/js/script.js"></script>
+    
+
+</body></html>

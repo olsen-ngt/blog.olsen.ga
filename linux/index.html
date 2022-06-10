@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Linux</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="My adventure with linux">
+        <meta name="keywords" content="developer,programmer,coder,blog,mechanical,cad,cam,win,linux">
+        <meta name="author" content="Olsen-ngt">
+        <link rel="shortcut icon" href="/images/favicon.svg">
+
+        <!-- CSS Plugins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="/tabler-icons/tabler-icons.min.css">
+
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="/css/style.css">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LLG32K7V99"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-LLG32K7V99');
+        </script>
+    </head>
+
+    <body>
+        <div class="header-height-fix"></div>
+        <header class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg navbar-light p-0">
+                            <a class="navbar-brand font-weight-bold mb-0" href="/" title="Van Thanh Blog">
+                                <b>Văn Thanh</b>
+                            </a>
+
+                            <button class="search-toggle d-inline-block d-lg-none ms-auto me-1 me-sm-3" data-toggle="search" aria-label="Search Toggle">
+                                <span>Search</span>
+                                <svg width="22" height="22" stroke-width="1.5" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 15.5L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 11C5 14.3137 7.68629 17 11 17C12.6597 17 14.1621 16.3261 15.2483 15.237C16.3308 14.1517 17 12.654 17 11C17 7.68629 14.3137 5 11 5C7.68629 5 5 7.68629 5 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </button>
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="ti ti-menu-2 d-inline"></i>
+                                <i class="ti ti-x d-none"></i>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navHeader">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="/">Trang chủ</a>
+                                    </li>
+                                    
+                                        <li class="nav-item @@coding  ">
+                                            <a class="nav-link" href="/coding">Coding</a>
+                                        </li>
+                                    
+                                        <li class="nav-item @@linux active ">
+                                            <a class="nav-link" href="/linux">Linux</a>
+                                        </li>
+                                    
+                                        <li class="nav-item @@Windows  ">
+                                            <a class="nav-link" href="/Windows">Windows</a>
+                                        </li>
+                                    
+                                </ul>
+
+                                <div class="navbar-right d-none d-lg-inline-block">
+                                    <ul class="social-links list-unstyled list-inline">
+                                        <li class="list-inline-item ms-4 d-none d-lg-inline-block">
+                                            <button class="search-toggle" data-toggle="search" aria-label="Search Toggle">
+                                                <span>Tìm kiếm</span>
+                                                <svg width="22" height="22" stroke-width="1.5" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 15.5L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 11C5 14.3137 7.68629 17 11 17C12.6597 17 14.1621 16.3261 15.2483 15.237C16.3308 14.1517 17 12.654 17 11C17 7.68629 14.3137 5 11 5C7.68629 5 5 7.68629 5 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="search-block">
+            <div data-toggle="search-close">
+                <span class="ti ti-x text-primary"></span>
+            </div>
+
+            <input type="text" id="js-search-input" placeholder="Nhập vào từ khóa cần tìm.." aria-label="search-query">
+
+            <div class="mt-4 card-meta">
+                <p class="h4 mb-3">Tìm theo phân loại</p>
+                <ul class="card-meta-tag list-inline">
+                    
+                        <li class="list-inline-item me-1 mb-2">
+                            <a class="small" href="/coding">Coding</a>
+                        </li>
+                    
+                        <li class="list-inline-item me-1 mb-2">
+                            <a class="small" href="/linux">Linux</a>
+                        </li>
+                    
+                        <li class="list-inline-item me-1 mb-2">
+                            <a class="small" href="/Windows">Windows</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        
+
+    <section class="page-header section-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="mb-2">Các bài viết trong mục</p>
+                    <h1 class="section-title h2 mb-3">
+                        <span>Linux</span>
+                    </h1>
+                    <span>My adventure with linux</span>
+            </div>
+        </div>
+    </div></section>
+
+    <div class="container">
+        <div class="row gy-5 gx-4 g-xl-5">
+            
+                <div class="col-lg-6">
+                    <article class="card post-card h-100 border-0 bg-transparent">
+                        <div class="card-body">
+                            <a class="d-block" href="/linux/cai-dat-adguard-home-tren-alpine-linux/" title="Cài đặt Adguard Home trên Alpine Linux">
+                                <div class="post-image position-relative">
+                                    <img class="w-100 h-auto rounded" src="https://res.cloudinary.com/canonical/image/fetch/https://dashboard.snapcraft.io/site_media/appmedia/2020/04/1_1_L6wlYts.png" alt="Cài đặt Adguard Home trên Alpine Linux" width="970" height="500">
+                                </div>
+                            </a>
+                            <ul class="card-meta list-inline mb-3">
+                                <li class="list-inline-item mt-2">
+                                    <i class="ti ti-calendar-event"></i>
+                                    <span>13/06/2022</span>
+                                </li>
+                            </ul>
+                            <a class="d-block" href="/linux/cai-dat-adguard-home-tren-alpine-linux/" title="Cài đặt Adguard Home trên Alpine Linux">
+                                <h3 class="mb-3 post-title">Cài đặt Adguard Home trên Alpine Linux</h3>
+                            </a>
+                            <p>Cách cài đặt Adguard Home trên Alpine Linux đơn giản nhất</p>
+                            <div class="card-footer border-top-0 bg-transparent p-0">
+                                <ul class="card-meta list-inline">
+                                    <li class="list-inline-item mt-2">
+                                        <a class="card-meta-author">
+                                            <img class="w-auto" src="/images/author/Van Thanh.jpg" width="26" height="26">
+                                            <span>Van Thanh</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mt-2">•</li>
+                                    <li class="list-inline-item mt-2">
+                                        <ul class="card-meta-tag list-inline">
+                                            
+                                                <li class="list-inline-item small">
+                                                    <a href="/linux">linux</a>
+                                                </li>
+                                            
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            
+        </div>
+    </div>
+
+
+
+        <!-- start of footer -->
+        <footer>
+            <div class="container">
+                <div class="section">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-xl-6 col-lg-8 col-md-10"></div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="row g-2 g-lg-4 align-items-center">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <p class="mb-0 copyright-text content">©2022 @ Văn Thanh</p>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end">
+                            <ul class="list-inline footer-menu">
+                                <li class="list-inline-item m-0">
+                                    <a href="#">Home Page</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- JS Plugins -->
+        <script src="/jquery/jquery.min.js"></script>
+        <script src="/bootstrap/bootstrap.min.js"></script>
+        <script src="/lightense/lightense.min.js"></script>
+
+        <!-- Main Script -->
+        <script src="/js/script.js"></script>
+    
+
+</body></html>
