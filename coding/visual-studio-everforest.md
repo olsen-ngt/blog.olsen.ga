@@ -6,7 +6,7 @@ cover: https://i.imgur.com/mHTKnGG.png
 author: Van Thanh
 time: 13/06/2022
 tags:
-  - dotnet
+  - coding
 ---
 Đây là theme mình convert từ Everforest trên VS Code, có chỉnh sửa qua tông màu 1 chút, khi dùng cả VS Code cả Visual Studio đồng màu với nhau rất tuyệt vời.
 
